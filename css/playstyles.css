@@ -1,0 +1,80 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+}
+body { font-family: arial, verdana, sans-serif;
+}
+
+/* THIS IS THE MENU BAR */
+.toc{
+  width: 100%;
+
+
+}
+/*
+.toc li{
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+
+
+}*/
+
+section.dramatis {
+  margin: 4rem 30%;
+  line-height: .5em;
+  clear: both;
+}
+
+section.play {
+  width: 70%;
+  max-width: 800px;
+  margin: 15px 30%;
+
+}
+div.sceneImage {
+}
+h1.act {
+
+}
+p.character {
+  color: #ff69b4;
+  font-size: 1.2em;
+  font-family: times, courier, serif;
+}
+p.charactername {
+  color: #ff69b4;
+}
+h1.dramatishead {
+
+}
+h2.firstscene {
+
+}
+h2.location {
+
+}
+p.play_location {
+
+}
+p.prose {
+  margin: 1px 12px 1px 40px;
+
+}
+h2.scene {
+
+}
+p.song {
+
+}
+h2.stagedirection {
+
+}
+p.verseline {
+  margin: 1px 12px 1px 60px;
+}
+span.character_role {
+  color: #46cdcf;
+}
+span.stage_directions_inline {
+}
