@@ -11,11 +11,12 @@ body {
 h1 {
   font-family: Garamond, Times, "Times New Roman", serif;
   margin-bottom: 0;
+  text-align: center;
 }
 h2 {
   font-family: Garamond, Times, "Times New Roman", serif;
   font-size: 110%;
-  text-indent: 2em;
+  text-align: center;
   margin-top: 0;
 }
 
@@ -34,6 +35,7 @@ img {
 .detail {
   list-style-type: none;
 }
+
 
 @media only screen and (min-width: 600px)  {
   .content {
