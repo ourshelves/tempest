@@ -1,8 +1,18 @@
-h1{
-  text-align: center;
-
-
+body{
+  font-family: "times new roman", times, serif;
+  margin: auto;
+  max-width: 700px;
 }
+
+h1.toctitle{
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-variant: small-caps;
+  margin-bottom: 0;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -10,58 +20,111 @@ ul {
   width: 100%;
   height: auto;
   font-family: times, serif;
-  font-size: 13px;
-
 }
 
-ul li {
-  display: block;
-  position: relative;
-
-}
-
+ul li,
 li ul {
   display: block;
   position: relative;
+
 }
 
-ul li a
-{
+ul li a {
   display: block;
   padding: .5em;
   color: #000;
   text-decoration: none;
-  background-color: #f1f1f1;
+  background-color: #e6e6ff;
 }
+
 li.tocheading1 {
   clear: both;
 }
 
 ul li ul li a {
-  background-color: #ffffff;
+  background-color: white;
   float: left;
   margin-left: 1em;
-
 }
 
 ul li a.active {
-  background-color: #4CAF50;
+  background-color: darkslategrey;
   color: white;
 }
 
 ul li a:hover:not(.active) {
-  background-color: #555;
+  background-color: darkslategrey;
   color: white;
 }
+
 a.allscenes{
   float: right;
 }
 
-@media screen and (min-width: 700px) {
+
+
+
+
+@media screen and (min-width: 600px) {
   li.tocheading1 {
     clear: none;
+    text-align: center;
   }
-  a{
+
+
+  ul li ul li a {
+    background-color: white;
+    margin: 0;
+  }
+  /* DROPDOWN */
+
+  ul {
+    max-width: 700px;
+    margin: auto;
+
+  }
+  li.tocheading1 {
+    width: 12.5%;
+  }
+
+  li {
+    display: block;
     float: left;
+    /* padding: .2rem; */
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
   }
+
+  li a:hover,
+  li a:focus-within {
+    background: darkslategrey;
+    cursor: pointer;
+  }
+
+  ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 0;
+    left: 0;
+    display: none;
+  }
+
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
   }

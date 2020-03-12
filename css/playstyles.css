@@ -1,80 +1,171 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 }
-body { font-family: arial, verdana, sans-serif;
+
+body {
+  font-family: "times new roman", times, serif;
+  margin: auto;
 }
 
-/* THIS IS THE MENU BAR */
-.toc{
-  width: 100%;
-
-
-}
-/*
-.toc li{
-  list-style-type: none;
-  color: white;
+h1, h2 {
   text-align: center;
-  text-decoration: none;
-  display: flex;
-
-
-}*/
-
-section.dramatis {
-  margin: 4rem 30%;
-  line-height: 1em;
   clear: both;
 }
 
+/* THIS IS THE NAVIGATION STYLES */
+
+ .button{
+   background-color: #e6e6ff;
+   border: none;
+   color: black;
+   padding: .7em;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1.1em;
+   margin: 0 10px 10px 10px;
+   cursor: pointer;
+   border-radius: 6px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
+section.toc {
+  /* display: none; */
+}
+
+section.dramatis {
+  line-height: 1em;
+  max-width: 700px;
+}
+
 section.play {
-  width: 70%;
-  max-width: 800px;
-  margin: 15px 30%;
+  margin: 10% auto;
+  max-width: 700px;
+}
 
+h1.title{
+  font-variant: small-caps;
+  font-size: 2.5em;
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  margin-bottom: .5em;
+  padding: .3em;
 }
-div.sceneImage {
+
+.exttoc{
+  text-align: center;
 }
+
 h1.act {
-
+  font-variant: small-caps;
+  font-size: 1.7em;
+  background-color: black;
+  color: white;
+  padding: .3em;
 }
+
 p.character {
-  color: #ff69b4;
-  font-size: 1.2em;
-  font-family: times, courier, serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 3%;
 }
+
 p.charactername {
-  color: #ff69b4;
+  font-size: 1em;
+  font-style: semibold;
+  padding-left: 15%;
+  margin: 0.5em;
 }
-h1.dramatishead {
 
-}
-h2.firstscene {
-
-}
-h2.location {
-
-}
-p.play_location {
-
-}
-p.prose {
-  margin: 1px 12px 1px 40px;
-
-}
-h2.scene {
-
-}
-p.song {
-
-}
-h2.stagedirection {
-
-}
-p.verseline {
-  margin: 1px 12px 1px 60px;
-}
 span.character_role {
-  color: #46cdcf;
+  color: darkslategrey;
+  font-style: italic;
 }
-span.stage_directions_inline {
+
+h1.dramatishead {
+  font-variant: small-caps;
+  background-color: black;
+  color: white;
+  line-height: normal;
+  font-size: 1.7em;
+  padding: .3em;
 }
+
+h2.firstscene {
+  margin-top: -1em;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  background-color: #e6e6ff;
+  padding: .2em;
+}
+
+h2.location {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+p.play_location {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-bottom: -1em;
+  text-align: center;
+  padding: 0px, 10px;
+}
+
+p.prose {
+  margin: .3em 3% .3em 10%;
+}
+
+h2.scene {
+  font-variant: small-caps;
+  font-size: 1.5em;
+  background-color: #e6e6ff;
+  padding: .2em;
+}
+
+p.song {
+  margin: .19em auto;
+  text-align: center;
+}
+
+h2.stagedirection {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0 15px;
+}
+
+p.verseline {
+  margin: .15em 3% .15em 10%;
+  max-width: 700px;
+}
+
+span.sdInline {
+  font-style: italic;
+  font-weight: bold;
+}
+
+span.charInline{
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 600px) {
+  section.toc {
+    display: block;
+  }
+
+  section.exttoc {
+    display: none;
+  }
+
+  h1.title{
+    margin: 0;
+  }
+
+}
+
+
+[hidden] { display: none; }
