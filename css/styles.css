@@ -1,5 +1,5 @@
 body {
-  font-family: "Times New Roman", Garamond, Times, , serif;
+  font-family: "Times New Roman", Garamond, Times, serif;
 
 
 }
@@ -27,7 +27,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-padding-top: 10px
+padding-top: 10px;
 }
 
 .detail {

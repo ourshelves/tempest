@@ -72,7 +72,7 @@ p.character {
 
 p.charactername {
   font-size: 1em;
-  font-style: semibold;
+  font-weight: bold;
   padding-left: 15%;
   margin: 0.5em;
 }
@@ -111,7 +111,7 @@ p.play_location {
   line-height: 1.1em;
   margin-bottom: -1em;
   text-align: center;
-  padding: 0px, 10px;
+  padding: 0px 10px;
 }
 
 p.prose {
