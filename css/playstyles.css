@@ -82,6 +82,10 @@ span.character_role {
   font-style: italic;
 }
 
+.charimg {
+  width: 100px;
+}
+
 h1.dramatishead {
   font-variant: small-caps;
   background-color: black;
