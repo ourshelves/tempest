@@ -82,8 +82,8 @@ span.character_role {
   font-style: italic;
 }
 
-.charimg {
-  width: 100px;
+img.charimg {
+  max-width: 236px;
 }
 
 h1.dramatishead {
@@ -101,6 +101,13 @@ h2.firstscene {
   font-size: 1.5em;
   background-color: #e6e6ff;
   padding: .2em;
+}
+
+img.sceneimg {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
 }
 
 h2.location {
@@ -167,6 +174,14 @@ span.charInline{
 
   h1.title{
     margin: 0;
+  }
+
+  img.charimg {
+    width: 32%;
+  }
+  img.sceneimg {
+    max-width: 500px;
+    margin: auto;
   }
 
 }
