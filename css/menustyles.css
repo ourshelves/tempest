@@ -10,7 +10,9 @@ h1.toctitle{
   color: white;
   background-color: black;
   font-variant: small-caps;
+  margin-top: 0;
   margin-bottom: 0;
+  padding: .5em;
 }
 
 ul {
@@ -83,15 +85,12 @@ a.allscenes{
     margin: auto;
 
   }
-  li.tocheading1 {
 
-  }
 
   li {
     display: block;
     float: left;
     width: 11.111112%;
-    /* padding: .2rem; */
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
@@ -141,5 +140,7 @@ a.allscenes{
     clear: both;
     width: 100%;
   }
-
+  li.tocextra {
+    width: 10%;
+  }
   }

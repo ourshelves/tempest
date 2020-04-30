@@ -116,6 +116,8 @@ span.character_role {
 }
 
 img.charimg {
+  width: 49%;
+  min-width: 100px;
   max-width: 236px;
   margin: 0 auto;
 }
