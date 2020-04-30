@@ -90,6 +90,7 @@ a.allscenes{
   li {
     display: block;
     float: left;
+    width: 11.111112%;
     /* padding: .2rem; */
     position: relative;
     text-decoration: none;
@@ -103,7 +104,7 @@ a.allscenes{
   }
 
   ul li a {
-    width: 11.111112%;
+    width: 100%;
     padding: .5em 0;
 
   }
