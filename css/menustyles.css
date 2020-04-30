@@ -84,11 +84,12 @@ a.allscenes{
 
   }
   li.tocheading1 {
-    width: 11.111112%;
+
   }
 
   li {
     display: block;
+    width: 11.111112%;
     float: left;
     /* padding: .2rem; */
     position: relative;
