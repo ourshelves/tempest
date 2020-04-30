@@ -84,7 +84,7 @@ a.allscenes{
 
   }
   li.tocheading1 {
-    width: 12.5%;
+    width: 11.111112%;
   }
 
   li {
@@ -102,15 +102,29 @@ a.allscenes{
     cursor: pointer;
   }
 
+  ul li a {
+
+    padding: .5em 0;
+
+  }
+
   ul li ul {
     visibility: hidden;
     opacity: 0;
-    min-width: 5rem;
+    min-width: 100%;
     position: absolute;
     transition: all 0.5s ease;
     margin-top: 0;
     left: 0;
     display: none;
+  }
+
+  ul li ul li a {
+
+    padding: .5em 0 ;
+    width: 100%
+
+
   }
 
   ul li:hover > ul,
